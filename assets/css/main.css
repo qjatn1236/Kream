@@ -1,0 +1,13 @@
+.link-area{
+  padding-top: 30px;
+}
+.link_wrap{
+  padding: 0 14px;
+}
+.link_list{
+  display: flex;
+}
+
+.slick-active{
+  background-color: #fff;
+}

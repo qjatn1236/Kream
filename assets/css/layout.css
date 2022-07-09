@@ -1,0 +1,41 @@
+@import './reset.css';
+@import './common.css';
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 16px;
+}
+
+.header_wrap .ico{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.header_wrap .ico+.ico{
+    margin-left: 20px;
+}
+
+.nav_box{
+    display: flex;
+    align-items: center;
+}
+
+.header_wrap .logo img{
+    width: 100px;
+}
+.container{
+    padding-top: 60px;
+}
