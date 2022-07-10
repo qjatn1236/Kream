@@ -40,3 +40,43 @@ header{
 .container{
     padding-top: 60px;
 }
+
+#footer{
+    padding: 40px 16px;
+}
+.service_area{
+    padding-bottom: 50px;
+}
+.service_area .customer_wrap strong{
+    font-size: 16px;
+    font-weight: 700;
+}
+.customer_wrap .customer_time{
+    line-height: 17px;
+    padding-top: 8px;
+}
+.customer_wrap .customer_time p {
+    font-size: 13px;
+    letter-spacing: -.07px;
+    color: rgba(34,34,34,.5);
+}
+.customer_wrap .customer_noti{
+    padding-top: 8px;font-size: 13px;
+}
+.customer_wrap .customer_btn{
+    padding-top: 17px;
+    display: block;
+}
+.customer_wrap .customer_btn a{
+    display: inline-block;
+    font-size: 12px;
+    background: #222;
+    color: #fafafa;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 14px;
+}
+
+.service_area .footmenu_wrap{
+    padding-top: 50px;
+}
