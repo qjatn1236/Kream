@@ -46,13 +46,14 @@ header{
 }
 .service_area{
     padding-bottom: 50px;
+    border-bottom: 1px solid #ebebeb;
 }
 .service_area .customer_wrap strong{
     font-size: 16px;
     font-weight: 700;
 }
 .customer_wrap .customer_time{
-    line-height: 17px;
+    line-height: 20px;
     padding-top: 8px;
 }
 .customer_wrap .customer_time p {
@@ -79,4 +80,75 @@ header{
 
 .service_area .footmenu_wrap{
     padding-top: 50px;
+    display: flex;
+}
+.footmenu_wrap .menu_box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.footmenu_wrap .menu_box .title{
+    font-size: 15px;
+    letter-spacing: -.15px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.footmenu_wrap .menu_box a{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: -.21px;
+    color: rgba(34,34,34,.5);
+}
+.footmenu_wrap .menu_box a+a{
+    margin-top: 12px;
+}
+.corp_area{
+    margin-top: 30px;
+}
+.corp_area .corp_list{
+    display: inline-flex;
+    padding-bottom: 50px;
+}
+.corp_area .corp_list .corp_item{
+    margin-right: 12px;
+}
+.corp_area .corp_list .corp_link{
+    display: block;
+    font-size: 14px;
+    letter-spacing: -.21px;
+    color: #000;
+}
+.corp_area .corp_item:last-child a{
+    font-weight: 700;
+}
+.sns_area{
+    display: flex;
+    align-items: center;
+}
+.sns_area .business_wrap{
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.sns_wrap .sns_ico+.sns_ico{
+    margin-left: 20px;
+}
+.sns_wrap .sns_ico img{
+   width: 24px;
+   height: 24px; 
+}
+.notice_wrap{
+    padding-top: 20px;
+}
+.notice_wrap .notice{
+    font-size: 12px;
+    letter-spacing: -.06px;
+    color: rgba(34,34,34,.4);
+    line-height: 16px;
+}
+.notice_wrap .copyright{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 12px;
+    color: rgba(34,34,34,.3);
 }
