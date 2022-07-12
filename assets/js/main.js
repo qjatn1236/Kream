@@ -12,8 +12,10 @@ $(document).ready(function () {
   $('.business_btn').click(function () {
     if ($('.business_wrap').css('display') == 'none') {
       $('.business_wrap').show();
+      $('.business_drop').attr('src', './assets/images/drop-up.png');
     } else {
       $('.business_wrap').hide();
+      $('.business_drop').attr('src', './assets/images/drop-down.png');
     }
   });
 

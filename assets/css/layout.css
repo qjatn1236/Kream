@@ -217,8 +217,13 @@ header {
 }
 
 .sns_area .business_btn {
+  display: flex;
+  align-items: center;
   margin-left: auto;
   font-size: 12px;
+}
+.sns_area .business_drop {
+  margin-left: 5px;
 }
 
 .sns_wrap .sns_ico + .sns_ico {
