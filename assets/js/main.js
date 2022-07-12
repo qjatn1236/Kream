@@ -16,4 +16,18 @@ $(document).ready(function () {
       $('.business_wrap').hide();
     }
   });
+
+  $('header .navi_open').click(function (e) {
+    e.preventDefault();
+    $('.navi_area .navi').css('right', '0');
+    $('.navi_area').css('position', 'fixed');
+    $('body').css('overflow', 'hidden');
+  });
+
+  $('.navi_close').click(function (e) {
+    e.preventDefault();
+    $('.navi_area .navi').css('right', '-80%');
+    $('.navi_area').css('position', 'relative');
+    $('body').css('overflow', 'scroll');
+  });
 });

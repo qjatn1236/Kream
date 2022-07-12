@@ -1,16 +1,18 @@
-body
-{
-    -ms-overflow-style: none;
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', sans-serif;
+  -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-     display: none;
+  display: none;
 }
 
-.blind{
-    position: absolute;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
