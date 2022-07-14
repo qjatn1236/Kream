@@ -106,7 +106,7 @@
     "prdDropped": [
         {
             "link": "링크값",
-            "imgSrc": "",
+            "imgSrc": "./assets/images/product01.webp",
             "brand": "",
             "prdTitle": "",
             "price": 260000,
