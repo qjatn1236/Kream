@@ -32,7 +32,7 @@ $(document).ready(function () {
 const categoryList = document.getElementById('categoryList');
 const brandList = document.getElementById('brandList');
 
-fetch('../assets/data/data.json')
+fetch('../../assets/data/data.json')
   .then((response) => response.json())
   .then((json) => {
     //
