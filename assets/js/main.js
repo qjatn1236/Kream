@@ -5,16 +5,6 @@ $(document).ready(function () {
     autoplay: true,
   });
 
-  $('.business_btn').click(function () {
-    if ($('.business_wrap').css('display') == 'none') {
-      $('.business_wrap').show();
-      $('.business_drop').attr('src', './assets/images/drop-up.png');
-    } else {
-      $('.business_wrap').hide();
-      $('.business_drop').attr('src', './assets/images/drop-down.png');
-    }
-  });
-
   $('header .btn_menu').click(function (e) {
     e.preventDefault();
     $('.navi .navi_inner').css('right', '0');
@@ -25,6 +15,16 @@ $(document).ready(function () {
     e.preventDefault();
     $('.navi .navi_inner').css('right', '-80%');
     $('body').css('overflow', 'scroll');
+  });
+
+  $('.business_btn').click(function () {
+    if ($('.group_business').css('display') == 'none') {
+      $('.group_business').show();
+      $('.business_drop').attr('src', './assets/images/drop-up.png');
+    } else {
+      $('.group_business').hide();
+      $('.business_drop').attr('src', './assets/images/drop-down.png');
+    }
   });
 });
 

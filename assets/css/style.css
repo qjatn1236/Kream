@@ -111,9 +111,9 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 #footer { padding: 40px 16px; }
 
-.service_area { padding-bottom: 50px; border-bottom: 1px solid #ebebeb; }
+.group_service { padding-bottom: 50px; border-bottom: 1px solid #ebebeb; }
 
-.service_area .customer_wrap strong { font-size: 16px; font-weight: 700; }
+.group_service .customer_wrap strong { font-size: 16px; font-weight: 700; }
 
 .customer_wrap .customer_time { line-height: 20px; padding-top: 8px; }
 
@@ -125,7 +125,7 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .customer_wrap .customer_btn a { display: inline-block; font-size: 12px; background: #222; color: #fafafa; height: 34px; line-height: 34px; padding: 0 14px; }
 
-.service_area .footmenu_wrap { padding-top: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.group_service .footmenu_wrap { padding-top: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
 .footmenu_wrap .menu_box { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 50%; }
 
@@ -135,39 +135,39 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .footmenu_wrap .menu_box a + a { margin-top: 12px; }
 
-.corp_area { margin-top: 30px; }
+.group_corp { margin-top: 30px; }
 
-.corp_area .corp_list { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding-bottom: 50px; }
+.group_corp .corp_list { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding-bottom: 50px; }
 
-.corp_area .corp_list .corp_item { margin-right: 12px; }
+.group_corp .corp_list .corp_item { margin-right: 12px; }
 
-.corp_area .corp_list .corp_link { display: block; font-size: 14px; letter-spacing: -0.21px; color: #000; }
+.group_corp .corp_list .corp_link { display: block; font-size: 14px; letter-spacing: -0.21px; color: #000; }
 
-.corp_area .corp_item:last-child a { font-weight: 700; }
+.group_corp .corp_item:last-child a { font-weight: 700; }
 
-.sns_area { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.group_sns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.sns_area .business_btn { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: auto; font-size: 12px; }
+.group_sns .business_btn { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: auto; font-size: 12px; }
 
-.sns_area .business_drop { margin-left: 5px; }
+.group_sns .business_drop { margin-left: 5px; }
 
 .sns_wrap .sns_ico + .sns_ico { margin-left: 20px; }
 
 .sns_wrap .sns_ico img { width: 24px; height: 24px; }
 
-.notice_wrap { padding-top: 20px; }
+.group_business { display: none; padding-top: 20px; }
 
-.notice_wrap .notice { font-size: 12px; letter-spacing: -0.06px; color: rgba(34, 34, 34, 0.4); line-height: 16px; }
-
-.notice_wrap .copyright { text-align: center; padding-top: 50px; font-size: 12px; color: rgba(34, 34, 34, 0.3); }
-
-.business_wrap { display: none; padding-top: 20px; }
-
-.business_wrap .title { margin-right: 4px; }
+.group_business .title { margin-right: 4px; }
 
 .business_info .title, .business_info .sub { float: left; line-height: 20px; font-size: 13px; letter-spacing: -0.07px; color: rgba(34, 34, 34, 0.5); }
 
 .business_info dl::after { content: ''; clear: both; display: block; }
+
+.group_notice { padding-top: 20px; }
+
+.group_notice .notice { font-size: 12px; letter-spacing: -0.06px; color: rgba(34, 34, 34, 0.4); line-height: 16px; }
+
+.group_notice .copyright { text-align: center; padding-top: 50px; font-size: 12px; color: rgba(34, 34, 34, 0.3); }
 
 .event_slide .event_item img { width: 100%; }
 
@@ -217,39 +217,39 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .sc_product .info_box .desc { line-height: 13px; font-size: 11px; color: rgba(34, 34, 34, 0.5); }
 
-.guide_bot .guide_box { background-position: 100% 0; background-size: 350px 200px; background-repeat: no-repeat; background-position: calc(100% + 61px) 0; width: 100%; height: 200px; display: block; }
-
-.guide_bot .guide_box:first-child { background-image: url("./../images/ban-bot01.png"); background-color: #565656; }
-
-.guide_bot .guide_box:nth-child(2) { background-image: url("./../images/ban-bot02.png"); background-color: #3b3a3c; }
-
-.guide_bot .guide_txt { padding: 29px 21px 0; color: #fff; }
-
-.guide_bot .guide_txt .sub_title { font-size: 12px; }
-
-.guide_bot .guide_txt .title { padding-top: 37px; font-size: 16px; }
-
-.guide_bot .guide_txt .txt { margin-top: 16px; padding: 0 7px; display: inline-block; font-size: 12px; letter-spacing: -0.06px; height: 29px; line-height: 27px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.8); color: #fff; }
-
 .banner { padding-top: 30px; }
 
 .banner img { width: 100%; }
 
 /* 인기유저 */
-.sns_style { overflow: hidden; padding: 30px 0; margin-top: 30px; border-top: 1px solid #ebebeb; }
+.sc_hotuser { overflow: hidden; padding: 30px 0; margin-top: 30px; border-top: 1px solid #ebebeb; }
 
-.sns_style .style_title { font-size: 20px; font-weight: 700; color: #222; padding: 0 16px 20px; }
+.sc_hotuser .group_title { font-size: 20px; font-weight: 700; color: #222; padding: 0 16px 20px; }
 
-.sns_style .style_list { overflow-x: auto; white-space: nowrap; padding: 0 16px 15px; margin: 0 -4px; }
+.sc_hotuser .style_list { overflow-x: auto; white-space: nowrap; padding: 0 16px 15px; margin: 0 -4px; }
 
-.sns_style .style_item { display: inline-block; }
+.sc_hotuser .style_item { display: inline-block; }
 
-.sns_style .style_item .item_link { width: 132px; display: block; overflow: hidden; position: relative; margin: 0 4px; border-radius: 10px; }
+.sc_hotuser .style_item .item_link { width: 132px; display: block; overflow: hidden; position: relative; margin: 0 4px; border-radius: 10px; }
 
-.sns_style .style_item .item_link::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(30%, rgba(0, 0, 0, 0))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%); border-radius: inherit; border: 1px solid #ebebeb; }
+.sc_hotuser .style_item .item_link::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(30%, rgba(0, 0, 0, 0))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%); border-radius: inherit; border: 1px solid #ebebeb; }
 
-.sns_style .profile_box { position: absolute; top: 8px; left: 8px; width: 36px; height: 36px; z-index: 10; }
+.sc_hotuser .profile_box { position: absolute; top: 8px; left: 8px; width: 36px; height: 36px; z-index: 10; }
 
-.sns_style .profile_box img { width: 100%; height: 100%; border-radius: 50%; }
+.sc_hotuser .profile_box img { width: 100%; height: 100%; border-radius: 50%; }
 
-.sns_style .username { position: absolute; left: 8px; bottom: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; color: #fff; z-index: 10; }
+.sc_hotuser .username { position: absolute; left: 8px; bottom: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; color: #fff; z-index: 10; }
+
+.sc_guide .link_guide { background-position: 100% 0; background-size: 350px 200px; background-repeat: no-repeat; background-position: calc(100% + 61px) 0; width: 100%; height: 200px; display: block; }
+
+.guide_top .link_guide { background-image: url("./../images/ban-bot01.png"); background-color: #565656; }
+
+.guide_bot .link_guide { background-image: url("./../images/ban-bot02.png"); background-color: #3b3a3c; }
+
+.sc_guide .info_box { padding: 29px 21px 0; color: #fff; }
+
+.sc_guide .info_box .sub_title { font-size: 12px; }
+
+.sc_guide .info_box .title { padding-top: 37px; font-size: 16px; }
+
+.sc_guide .info_box .txt { margin-top: 16px; padding: 0 7px; display: inline-block; font-size: 12px; letter-spacing: -0.06px; height: 29px; line-height: 27px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.8); color: #fff; }

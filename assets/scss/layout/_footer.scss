@@ -1,12 +1,12 @@
 #footer {
   padding: 40px 16px;
 }
-.service_area {
+.group_service {
   padding-bottom: 50px;
   border-bottom: 1px solid #ebebeb;
 }
 
-.service_area .customer_wrap strong {
+.group_service .customer_wrap strong {
   font-size: 16px;
   font-weight: 700;
 }
@@ -42,7 +42,7 @@
   padding: 0 14px;
 }
 
-.service_area .footmenu_wrap {
+.group_service .footmenu_wrap {
   padding-top: 50px;
   display: flex;
 }
@@ -71,42 +71,42 @@
   margin-top: 12px;
 }
 
-.corp_area {
+.group_corp {
   margin-top: 30px;
 }
 
-.corp_area .corp_list {
+.group_corp .corp_list {
   display: inline-flex;
   padding-bottom: 50px;
 }
 
-.corp_area .corp_list .corp_item {
+.group_corp .corp_list .corp_item {
   margin-right: 12px;
 }
 
-.corp_area .corp_list .corp_link {
+.group_corp .corp_list .corp_link {
   display: block;
   font-size: 14px;
   letter-spacing: -0.21px;
   color: #000;
 }
 
-.corp_area .corp_item:last-child a {
+.group_corp .corp_item:last-child a {
   font-weight: 700;
 }
 
-.sns_area {
+.group_sns {
   display: flex;
   align-items: center;
 }
 
-.sns_area .business_btn {
+.group_sns .business_btn {
   display: flex;
   align-items: center;
   margin-left: auto;
   font-size: 12px;
 }
-.sns_area .business_drop {
+.group_sns .business_drop {
   margin-left: 5px;
 }
 
@@ -119,30 +119,12 @@
   height: 24px;
 }
 
-.notice_wrap {
-  padding-top: 20px;
-}
-
-.notice_wrap .notice {
-  font-size: 12px;
-  letter-spacing: -0.06px;
-  color: rgba(34, 34, 34, 0.4);
-  line-height: 16px;
-}
-
-.notice_wrap .copyright {
-  text-align: center;
-  padding-top: 50px;
-  font-size: 12px;
-  color: rgba(34, 34, 34, 0.3);
-}
-
-.business_wrap {
+.group_business {
   display: none;
   padding-top: 20px;
 }
 
-.business_wrap .title {
+.group_business .title {
   margin-right: 4px;
 }
 
@@ -159,4 +141,22 @@
   content: '';
   clear: both;
   display: block;
+}
+
+.group_notice {
+  padding-top: 20px;
+}
+
+.group_notice .notice {
+  font-size: 12px;
+  letter-spacing: -0.06px;
+  color: rgba(34, 34, 34, 0.4);
+  line-height: 16px;
+}
+
+.group_notice .copyright {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 12px;
+  color: rgba(34, 34, 34, 0.3);
 }
