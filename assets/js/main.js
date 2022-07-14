@@ -5,10 +5,6 @@ $(document).ready(function () {
     autoplay: true,
   });
 
-  //   $('.business_btn').click(function () {
-  //     $('.business_wrap').stop().slideToggle();
-  //   });
-
   $('.business_btn').click(function () {
     if ($('.business_wrap').css('display') == 'none') {
       $('.business_wrap').show();

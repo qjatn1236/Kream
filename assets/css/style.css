@@ -195,11 +195,11 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .sc_product .group_title .sub_title { font-size: 14px; letter-spacing: -0.21px; color: rgba(34, 34, 34, 0.5); }
 
-.sc_product .prd_wrap { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; font-size: 0; }
+.sc_product .product_wrap { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; font-size: 0; }
 
-.sc_product .prd_list { padding: 0 8px; }
+.sc_product .product_list { padding: 0 8px; }
 
-.sc_product .prd_item { display: inline-block; vertical-align: top; width: 220px; padding: 0 8px; margin: 15px 0; }
+.sc_product .product_item { display: inline-block; vertical-align: top; width: 220px; padding: 0 8px; margin: 15px 0; }
 
 .sc_product .product { background-color: #f6eeed; }
 

@@ -67,18 +67,18 @@
   color: rgba(34, 34, 34, 0.5);
 }
 
-.sc_product .prd_wrap {
+.sc_product .product_wrap {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   font-size: 0;
 }
 
-.sc_product .prd_list {
+.sc_product .product_list {
   padding: 0 8px;
 }
 
-.sc_product .prd_item {
+.sc_product .product_item {
   display: inline-block;
   vertical-align: top;
   width: 220px;
