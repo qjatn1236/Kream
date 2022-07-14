@@ -1,0 +1,110 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 11;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 16px;
+}
+
+.header_inner .logo img {
+  width: 100px;
+}
+
+.column_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_inner .column_btn {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.header_inner .column_btn + .column_btn {
+  margin-left: 20px;
+}
+
+.navi {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 11;
+}
+.navi .navi_inner {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  right: -80%;
+  bottom: 0;
+  width: 80%;
+  background: #fff;
+  padding-top: 60px;
+  transition: 0.4s;
+}
+
+.navi_inner .group_navi {
+  position: relative;
+  padding-bottom: 55px;
+  min-height: 100%;
+}
+
+.navi_list .navi_item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.navi_list .navi_item .navi_link {
+  display: block;
+  padding: 19px 20px 18px;
+  height: 100%;
+  font-size: 15px;
+  letter-spacing: -0.15px;
+  font-weight: 700;
+}
+
+.btn_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 18px 11px;
+}
+.btn_close img {
+  width: 24px;
+  height: 24px;
+}
+
+.navi_inner .down_area {
+  margin: 53px 0 0 20px;
+}
+
+.down_area .download_msg {
+  font-size: 12px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.down_area .btn_download {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.8);
+  background: #fff;
+  line-height: 38px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 0 11px;
+  margin-top: 12px;
+}
+

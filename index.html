@@ -6,167 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KREAM</title>
-
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/css/layout.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<div>
+<body>
     <header class="header">
-        <div class="header_wrap">
+        <div class="header_inner">
             <h1 class="logo"><a href="#"><img src="./assets/images/logo.png" alt="크림 로고"></a></h1>
-            <nav class="nav_box">
-                <a href="#" class="ico"><img src="./assets/images/point.png" alt="상품검색"></a>
-                <a href="#" class="ico navi_open"><img src="./assets/images/menu.png" alt="네이게이션 열기 버튼"></a>
-            </nav>
-        </div>
-    </header>
-    
-    <div class="navi_area">
-        <div class="navi">
+            <div class="column_right">
+                <a href="#" class="column_btn btn_search"><img src="./assets/images/point.png" alt="상품검색"></a>
+                <a href="#" class="column_btn btn_menu"><img src="./assets/images/menu.png" alt="네이게이션 열기 버튼"></a>
+            </div>
 
-            <a href="#" class="navi_close"><img src="./assets/images/close-btn.png" alt="네비게이션 닫기 버튼"></a>
-            <div class="navi_inner">
-                <ul class="navi_wrap">
-                    <li class="navi_item"><a href="#" class="navi_link">STYLE</a></li>
-                    <li class="navi_item"><a href="#" class="navi_link">SHOP</a></li>
-                    <li class="navi_item"><a href="#" class="navi_link">자주 묻는 질문</a></li>
-                    <li class="navi_item"><a href="#" class="navi_link">공지사항</a></li>
-                    <li class="navi_item"><a href="#" class="navi_link">로그인</a></li>
-                </ul>
-                <div class="app_down">
-                    <p class="download_txt">KREAM 앱 설치 후 사용해 보세요!</p>
-                    <a href="#" class="download_btn">앱 다운로드</a>
+            <div class="navi">
+
+                <div class="navi_inner">
+
+                    <a href="#" class="btn_close"><img src="./assets/images/close-btn.png" alt="네비게이션 닫기 버튼"></a>
+
+                    <div class="group_navi">
+                        <!-- <nav class="navi_area"></nav> -->
+                        <ul class="navi_list">
+                            <!-- wrap > list -->
+                            <li class="navi_item"><a href="#" class="navi_link">STYLE</a></li>
+                            <li class="navi_item"><a href="#" class="navi_link">SHOP</a></li>
+                            <li class="navi_item"><a href="#" class="navi_link">자주 묻는 질문</a></li>
+                            <li class="navi_item"><a href="#" class="navi_link">공지사항</a></li>
+                            <li class="navi_item"><a href="#" class="navi_link">로그인</a></li>
+                        </ul>
+                        <div class="down_area">
+                            <p class="download_msg">KREAM 앱 설치 후 사용해 보세요!</p>
+                            <a href="#" class="btn_download">앱 다운로드</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+    </header>
 
-        </div>
-    </div>
+    <main class="container">
 
-    <div class="container">
-
-        <div class="event_slide">
-            <div class="event_item">
-                <img src="./assets/images/main-slide01.jpg" alt="이벤트 슬라이드 이미지">
+        <section class="sc-event">
+            <h2 class="blind">이벤트</h2>
+            <div class="event_slide">
+                <div class="event_item">
+                    <img src="./assets/images/main-slide01.jpg" alt="이벤트 슬라이드 이미지">
+                </div>
+                <div class="event_item">
+                    <img src="./assets/images/main-slide02.jpg" alt="이벤트 슬라이드 이미지">
+                </div>
+                <div class="event_item">
+                    <img src="./assets/images/main-slide03.jpg" alt="이벤트 슬라이드 이미지">
+                </div>
+                <div class="event_item">
+                    <img src="./assets/images/main-slide04.jpg" alt="이벤트 슬라이드 이미지">
+                </div>
             </div>
-            <div class="event_item">
-                <img src="./assets/images/main-slide02.jpg" alt="이벤트 슬라이드 이미지">
-            </div>
-            <div class="event_item">
-                <img src="./assets/images/main-slide03.jpg" alt="이벤트 슬라이드 이미지">
-            </div>
-            <div class="event_item">
-                <img src="./assets/images/main-slide04.jpg" alt="이벤트 슬라이드 이미지">
-            </div>
-        </div>
+        </section>
         <!-- 메인 슬라이드 -->
 
-        <div class="link_area">
-            <div class="link_wrap">
+        <section class="sc_category">
+            <h2 class="blind">카테고리</h2>
+            <!-- link-area 부분 바꾸기 -->
+            <ul class="category_list shortcut" id="categoryList">
+                <!-- <li>
+                    <a href="#">
+                        <div class="img_box">
+                            <img src="./assets/images/link-item01.jpg" alt="링크 뉴트랜딩">
+                        </div>
+                        <p class="text">뉴 트랜딩</p>
+                    </a>
+                </li> -->
+            </ul>
+        </section>
 
-                <div class="link_list">
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item01.jpg" alt="링크 뉴트랜딩">
-                            </div>
-                            <p>뉴 트랜딩</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item02.jpg" alt="링크 남성추천">
-                            </div>
-                            <p>남성 추천</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item03.jpg" alt="링크 여성추천">
-                            </div>
-                            <p>여성 추천</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item04.jpg" alt="링크 골프">
-                            </div>
-                            <p>골프</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item05.jpg" alt="링크 럭셔리">
-                            </div>
-                            <p>Luxury Bag</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="link_list">
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item06.jpg" alt="링크 오늘의코디">
-                            </div>
-                            <p>오늘의 코디</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item07.jpg" alt="링크 여행컬렉션">
-                            </div>
-                            <p>여행 컬렉션</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item08.jpg" alt="링크 7월럭키드로우">
-                            </div>
-                            <p>7월 럭키드로우</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item09.jpg" alt="링크 빠른배송">
-                            </div>
-                            <p>빠른배송</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item10.jpg" alt="링크 누구나창고보관">
-                            </div>
-                            <p>누구나 창고보관</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 아이콘 리스트 -->
+        <section class="sc_product">
 
-        <div class="prd_area">
-
-            <div class="prd_title">
+            <div class="group_title">
                 <h2 class="title">Just Dropped</h2>
                 <p class="sub_title">발매 상품</p>
             </div>
 
             <div class="prd_wrap">
-                <div class="prd_list">
-                    <div class="prd_item">
+
+                <ul class="prd_list">
+                    <li class="prd_item">
+                        <a href="#" class="product">
+                            <!-- img_box -->
+                            <img src="./assets/images/product01.webp" alt="나이키 x 톰 삭스 마스야드 슈 2.0 스페이스 캠프">
+                        </a>
+                        <a href="#" class="btn_bookmark"><span class="blond">장바구니</span></a>
                         <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product01.webp" alt="나이키 x 톰 삭스 마스야드 슈 2.0 스페이스 캠프">
-                            </div>
                             <div class="info_box">
                                 <div class="brand">
                                     <p class="brand_name">Nike</p>
@@ -183,241 +114,26 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product02.webp" alt="조던 1 미드 화이트 블랙 타이다이">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">Jordan 1 Mid White Black Tie-Dye</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">155,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product03.webp" alt="조던 1 미드 택시">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">Jordan 1 Mid Taxi</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">154,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product04.webp" alt="(W) 나이키 덩크 로우 오션">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">(W) Nike Dunk Low Ocean</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">144,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product05.webp" alt="아더에러 트윈 하트 빅 로고 티셔츠 오프 화이트">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name"> Ader Error </p>
-                                </div>
-                                <p class="name">Ader Error Twin Heart Big Logo T-Shirt Off White</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">149,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product06.webp" alt="아이앱 스튜디오 x 오뚜기 마요네스 50주년 쿠킹 키트 (미니 마요네스 제외)">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name"> IAB Studio </p>
-                                </div>
-                                <p class="name">IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without
-                                    Mini Mayonnaise)</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">124,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product07.webp" alt="아이앱 스튜디오 x 오뚜기 마요네스 50주년 티셔츠 네이비">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">IAB Studio</p>
-                                </div>
-                                <p class="name">IAB Studio x Ottogi Mayonnaise 50th Anniversary T-Shirt Navy</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">125,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="link_area">
-            <div class="link_wrap">
-
-                <div class="link_list">
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item11.jpg" alt="링크 에르메스">
-                            </div>
-                            <p>에르메스</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item12.jpg" alt="링크 샤넬">
-                            </div>
-                            <p>샤넬</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item13.jpg" alt="링크 루이비통">
-                            </div>
-                            <p>루이비통</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item14.jpg" alt="링크 까르띠에">
-                            </div>
-                            <p>까르띠에</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item15.jpg" alt="링크 롤렉스">
-                            </div>
-                            <p>롤렉스</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="link_list">
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item16.jpg" alt="링크 디올">
-                            </div>
-                            <p>디올</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item17.jpg" alt="링크 우영미">
-                            </div>
-                            <p>우영미</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item18.jpg" alt="링크 프라다">
-                            </div>
-                            <p>프라다</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item19.jpg" alt="링크 발렌시아가">
-                            </div>
-                            <p>발렌시아가</p>
-                        </a>
-                    </div>
-                    <div class="link_item">
-                        <a href="#">
-                            <div class="img_box">
-                                <img src="./assets/images/link-item20.jpg" alt="링크 애플">
-                            </div>
-                            <p>애플</p>
-                        </a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
 
             </div>
-        </div>
+
+        </section>
+
+        <section class="sc-brand">
+            <!-- link-area 부분 바꾸기 -->
+            <ul class="brand-list shortcut" id="brandList">
+                <!-- <li>
+                    <a href="#">
+                        <div class="img_box">
+                            <img src="./assets/images/link-item11.jpg" alt="링크 뉴트랜딩">
+                        </div>
+                        <p class="text">뉴 트랜딩</p>
+                    </a>
+                </li> -->
+            </ul>
+        </section>
 
         <!-- 광고 -->
         <div class="banner">
@@ -425,180 +141,13 @@
         </div>
         <!-- 광고 -->
 
-        <div class="prd_area">
+        <div class="prd_area" id="dropped">
 
             <div class="prd_title">
                 <h2 class="title">Just Dropped</h2>
                 <p class="sub_title">발매 상품</p>
             </div>
 
-            <div class="prd_wrap">
-                <div class="prd_list">
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product01.webp" alt="나이키 x 톰 삭스 마스야드 슈 2.0 스페이스 캠프">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">7,000,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product02.webp" alt="조던 1 미드 화이트 블랙 타이다이">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">Jordan 1 Mid White Black Tie-Dye</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">155,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product03.webp" alt="조던 1 미드 택시">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">Jordan 1 Mid Taxi</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">154,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product04.webp" alt="(W) 나이키 덩크 로우 오션">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">Nike</p>
-                                </div>
-                                <p class="name">(W) Nike Dunk Low Ocean</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">144,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product05.webp" alt="아더에러 트윈 하트 빅 로고 티셔츠 오프 화이트">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name"> Ader Error </p>
-                                </div>
-                                <p class="name">Ader Error Twin Heart Big Logo T-Shirt Off White</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">149,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product06.webp"
-                                    alt="아이앱 스튜디오 x 오뚜기 마요네스 50주년 쿠킹 키트 (미니 마요네스 제외)">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name"> IAB Studio </p>
-                                </div>
-                                <p class="name">IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without
-                                    Mini Mayonnaise)</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">124,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="prd_item">
-                        <a href="#">
-                            <div class="product">
-                                <img src="./assets/images/product07.webp" alt="아이앱 스튜디오 x 오뚜기 마요네스 50주년 티셔츠 네이비">
-                            </div>
-                            <div class="info_box">
-                                <div class="brand">
-                                    <p class="brand_name">IAB Studio</p>
-                                </div>
-                                <p class="name">IAB Studio x Ottogi Mayonnaise 50th Anniversary T-Shirt Navy</p>
-                                <span class="express_mark">빠른배송</span>
-                                <div class="price">
-                                    <div class="amount">
-                                        <em class="num">125,000 원</em>
-                                    </div>
-                                    <div class="desc">
-                                        <p>즉시구매가</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
         </div>
 
         <!-- 광고 -->
@@ -607,9 +156,14 @@
         </div>
         <!-- 광고 -->
 
+        <section class="sc-">
+
+        </section>
         <div class="sns_style">
             <div class="style_title">
+                <!-- group_title -->
                 <p>오늘의 인기유저</p>
+                <!-- <h2></h2> -->
             </div>
 
             <div class="style_list">
@@ -622,108 +176,50 @@
                         <p class="username">@oxixzz</p>
                     </a>
                 </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style02.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style03.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style04.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style05.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style06.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style07.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style08.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
-                <div class="style_item">
-                    <a href="#" class="item_link">
-                        <img src="./assets/images/style09.jpg" alt="유저 스타일 이미지" class="item_img">
-                        <div class="profile_box">
-                            <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
-                        </div>
-                        <p class="username">@oxixzz</p>
-                    </a>
-                </div>
+
             </div>
 
         </div>
-    </div>
 
-    <div class="guide_bot">
 
-        <a href="#" class="guide_box">
-            <div class="guide_txt">
-                <strong class="sub_title">SERVICE GUIDE</strong>
-                <p class="title">KREAM은
-                    처음이지?<br>서비스 소개를 확인해보세요.
-                </p>
-                <span class="txt">서비스 안내</span>
-            </div>
-        </a>
-        <a href="#" class="guide_box">
-            <div class="guide_txt">
-                <strong class="sub_title">DOWNLOAD THE APP</strong>
-                <p class="title">KREAM 앱을 설치하여 <br>
-                    한정판 스니커즈를 FLEX 하세요!</p>
-                <span class="txt">앱 설치하기</span>
-            </div>
-        </a>
+        <div class="guide_bot">
 
-    </div>
+            <section class="sc-guide">
+                <a href="#" class="guide_box">
+                    <!-- link_guide -->
+                    <div class="guide_txt">
+                        <!-- info_box -->
+                        <strong class="sub_title">SERVICE GUIDE</strong>
+                        <p class="title">KREAM은
+                            처음이지?<br>서비스 소개를 확인해보세요.
+                        </p>
+                        <span class="txt">서비스 안내</span>
+                        <!-- btn_down -->
+                    </div>
+                </a>
+            </section>
+            <section class="sc-guide">
+                <a href="#" class="guide_box">
+                    <!-- link_guide -->
+                    <div class="guide_txt">
+                        <!-- info_box -->
+                        <strong class="sub_title">DOWNLOAD THE APP</strong>
+                        <p class="title">KREAM 앱을 설치하여 <br>
+                            한정판 스니커즈를 FLEX 하세요!</p>
+                        <span class="txt">앱 설치하기</span>
+                        <!-- btn_down -->
+                    </div>
+                </a>
+            </section>
 
-</div>
+        </div>
+
+
+
+    </main>
+</body>
 <footer id="footer">
-
+    <!-- 푸터 바로 자식인 디브를 group으로 -->
     <div class="service_area">
         <div class="customer_wrap">
             <strong>고객센터 1588-7813</strong>
@@ -754,7 +250,7 @@
         </div>
     </div>
     <div class="corp_area">
-        <h2 class="blind">크림 정책 및 약관</h2>
+        <h3 class="blind">크림 정책 및 약관</h3>
         <ul class="corp_list">
             <li class="corp_item"><a href="#" class="corp_link">회사소개</a></li>
             <li class="corp_item"><a href="#" class="corp_link">인재채용</a></li>
@@ -763,8 +259,11 @@
         </ul>
     </div>
     <div class="sns_area">
+        <!-- group -->
         <div class="sns_wrap">
+            <!-- wrap 을 area 로  -->
             <a href="#" class="sns_ico"><img src="./assets/images/insta.png" alt="인스타그램"></a>
+            <!-- link_뭐뭐머 -->
             <a href="#" class="sns_ico"><img src="./assets/images/insta.png" alt="페이스북"></a>
             <a href="#" class="sns_ico"><img src="./assets/images/insta.png" alt="카카오톡"></a>
         </div>
@@ -803,7 +302,6 @@
             </dl>
         </div>
     </div>
-
     <div class="notice_wrap">
         <p class="notice">
             크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아니므로 개별 판매자가 등록한 상품정보에 대해서 책임을 지지 않습니다. 단, 거래과정에서 검수하고 보증하는 내용에 대한 책임은 당사에

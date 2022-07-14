@@ -19,17 +19,61 @@ $(document).ready(function () {
     }
   });
 
-  $('header .navi_open').click(function (e) {
+  $('header .btn_menu').click(function (e) {
     e.preventDefault();
-    $('.navi_area .navi').css('right', '0');
-    $('.navi_area').css('position', 'fixed');
+    $('.navi .navi_inner').css('right', '0');
     $('body').css('overflow', 'hidden');
   });
 
-  $('.navi_close').click(function (e) {
+  $('.btn_close').click(function (e) {
     e.preventDefault();
-    $('.navi_area .navi').css('right', '-80%');
-    $('.navi_area').css('position', 'relative');
+    $('.navi .navi_inner').css('right', '-80%');
     $('body').css('overflow', 'scroll');
   });
 });
+
+//  
+const categoryList = document.getElementById('categoryList');
+const brandList = document.getElementById('brandList');
+
+fetch('../assets/data/data.json')
+  .then((response) => response.json())
+  .then((json) => {
+    //
+    const category = json.category;
+    const brand = json.brand;
+
+    //
+    let categoryHtml = '';
+    let brandHtml = '';
+
+
+    category.forEach(item => {
+      categoryHtml += 
+      `<li class="link_item">
+          <a href="${item.link}">
+              <div class="img_box">
+                  <img src="${item.imgSrc}" alt="${item.title}">
+              </div>
+              <p class="text">${item.title}</p>
+          </a>
+      </li>
+      `;
+    });
+
+    brand.forEach(item => {
+      brandHtml += 
+      `<li class="link_item">
+          <a href="${item.link}">
+              <div class="img_box">
+                  <img src="${item.imgSrc}" alt="${item.title}">
+              </div>
+              <p class="text">${item.title}</p>
+          </a>
+      </li>
+      `;
+    });
+
+    categoryList.innerHTML = categoryHtml;
+    brandList.innerHTML = brandHtml;
+  });

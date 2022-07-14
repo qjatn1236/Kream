@@ -1,0 +1,116 @@
+{
+    "category": [
+        {
+            "link": "링크값",
+            "title": "뉴 트랜딩",
+            "imgSrc": "./assets/images/link-item01.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "남성추천",
+            "imgSrc": "./assets/images/link-item02.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "여성추천",
+            "imgSrc": "./assets/images/link-item03.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "골프",
+            "imgSrc": "./assets/images/link-item04.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "럭셔리 컬렉션",
+            "imgSrc": "./assets/images/link-item05.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "오늘의 코디",
+            "imgSrc": "./assets/images/link-item06.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "여행 컬렉션",
+            "imgSrc": "./assets/images/link-item07.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "7월 럭키드로우",
+            "imgSrc": "./assets/images/link-item08.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "빠른배송",
+            "imgSrc": "./assets/images/link-item09.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "누구나 창고보관",
+            "imgSrc": "./assets/images/link-item10.jpg"
+        }
+    ],
+    "brand": [
+        {
+            "link": "링크값",
+            "title": "에르메스",
+            "imgSrc": "./assets/images/link-item11.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "샤넬",
+            "imgSrc": "./assets/images/link-item12.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "루이비통",
+            "imgSrc": "./assets/images/link-item13.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "까르띠에",
+            "imgSrc": "./assets/images/link-item14.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "롤렉스",
+            "imgSrc": "./assets/images/link-item15.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "디올",
+            "imgSrc": "./assets/images/link-item16.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "우영미",
+            "imgSrc": "./assets/images/link-item17.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "프라다",
+            "imgSrc": "./assets/images/link-item18.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "발렌시아가",
+            "imgSrc": "./assets/images/link-item19.jpg"
+        },
+        {
+            "link": "링크값",
+            "title": "애플",
+            "imgSrc": "./assets/images/link-item20.jpg"
+        }
+    ],
+    "prdDropped": [
+        {
+            "link": "링크값",
+            "imgSrc": "",
+            "brand": "",
+            "prdTitle": "",
+            "price": 260000,
+            "quickDeilvery": true
+        }
+    ]
+}

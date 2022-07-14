@@ -2,81 +2,83 @@
   width: 100%;
 }
 
-.link_area {
+.sc_category {
+  padding-top: 30px;
+}
+.sc-brand{
   padding-top: 30px;
 }
 
-.link_area .link_wrap {
+.shortcut {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 14px;
 }
 
-.link_area .link_list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.link_area .link_list + .link_list {
+.shortcut .link_list + .link_list {
   margin-top: 16px;
 }
 
-.link_area .link_item {
+.shortcut .link_item {
   width: calc(20% - 8.5px);
   margin: 0 4px;
   text-align: center;
   display: inline-block;
 }
 
-.link_area .link_item p {
+.shortcut .link_item p {
   font-size: 12px;
   color: #333;
   margin-top: 6px;
   word-break: keep-all;
 }
 
-.link_area .img_box {
+.shortcut .img_box {
   overflow: hidden;
   border-radius: 50%;
 }
 
-.link_area .img_box img {
+.shortcut .img_box img {
   width: 100%;
 }
 
-.prd_area {
+// shortcut
+
+.sc_product {
   border-top: 1px solid #ebebeb;
   margin-top: 30px;
   padding-top: 30px;
 }
 
-.prd_area .prd_title {
+.sc_product .group_title {
   padding: 0 17px;
 }
 
-.prd_area .prd_title .title {
+.sc_product .group_title .title {
   font-size: 18px;
   letter-spacing: -0.1px;
   font-weight: 700;
   color: #000;
 }
 
-.prd_area .prd_title .sub_title {
+.sc_product .group_title .sub_title {
   font-size: 14px;
   letter-spacing: -0.21px;
   color: rgba(34, 34, 34, 0.5);
 }
 
-.prd_area .prd_wrap {
+.sc_product .prd_wrap {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   font-size: 0;
 }
 
-.prd_area .prd_list {
+.sc_product .prd_list {
   padding: 0 8px;
 }
 
-.prd_area .prd_item {
+.sc_product .prd_item {
   display: inline-block;
   vertical-align: top;
   width: 220px;
@@ -84,15 +86,15 @@
   margin: 15px 0;
 }
 
-.prd_area .product {
+.sc_product .product {
   background-color: rgb(246, 238, 237);
 }
 
-.prd_area .info_box {
+.sc_product .info_box {
   padding-top: 9px;
 }
 
-.prd_area .info_box .brand_name {
+.sc_product .info_box .brand_name {
   overflow: hidden;
   display: inline-block;
   vertical-align: top;
@@ -108,7 +110,7 @@
   border-bottom: 1px solid #222;
 }
 
-.prd_area .info_box .name {
+.sc_product .info_box .name {
   line-height: 17px;
   margin-top: 8.5px;
   max-height: 34px;
@@ -123,11 +125,11 @@
   color: #222;
 }
 
-.prd_area .info_box .price {
+.sc_product .info_box .price {
   padding-top: 7px;
 }
 
-.prd_area .info_box .amount {
+.sc_product .info_box .amount {
   display: inline-block;
   vertical-align: top;
   line-height: 17px;
@@ -136,7 +138,7 @@
   font-weight: 700;
   letter-spacing: -0.04px;
 }
-.prd_area .info_box .num {
+.sc_product .info_box .num {
   display: inline-block;
   vertical-align: top;
   line-height: 17px;
@@ -146,7 +148,7 @@
   letter-spacing: -0.04px;
 }
 
-.prd_area .info_box .desc {
+.sc_product .info_box .desc {
   line-height: 13px;
   font-size: 11px;
   color: rgba(34, 34, 34, 0.5);
