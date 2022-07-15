@@ -223,6 +223,48 @@
             "imgSrc": "./assets/images/style02.jpg",
             "profileSrc": "./assets/images/profile01.jpg",
             "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style03.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style04.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style05.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style06.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style07.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style08.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style09.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
         }
     ]
 }
