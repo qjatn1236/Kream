@@ -210,5 +210,17 @@
             "price": 150000,
             "quickDelivery": true
         }
+    ],
+    "userstyle": [
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style02.jpg",
+            "name": "@oxixzz"
+        }
     ]
 }

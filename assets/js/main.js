@@ -33,6 +33,7 @@ const categoryList = document.getElementById('categoryList');
 const brandList = document.getElementById('brandList');
 const PopularList = document.getElementById('PopularList')
 const droppedList = document.getElementById('droppedList')
+const styleList = document.getElementById('styleList')
 
 fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
   .then((response) => response.json())
@@ -42,12 +43,14 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     const brand = json.brand;
     const Popular = json.mostPopular;
     const dropped = json.dropped;
+    const userstyle = json.userstyle;
 
     //
     let categoryHtml = '';
     let brandHtml = '';
     let PopularHtml = '';
     let droppedHtml = '';
+    let userstyleHtml = '';
 
 
     category.forEach(item => {
@@ -140,9 +143,24 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
       `;
     });
 
+    userstyle.forEach(item => {
+    
+      userstyleHtml += 
+      `<li class="style_item">
+          <a href="#" class="link_item">
+              <img src="${item.imgSrc}" alt="유저 스타일 이미지" class="item_img">
+              <div class="profile_box">
+                  <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
+              </div>
+              <p class="username">${item.name}</p>
+          </a>
+        </li>
+      `;
+    });
+
     categoryList.innerHTML = categoryHtml;
     brandList.innerHTML = brandHtml;
     PopularList.innerHTML = PopularHtml;
     droppedList.innerHTML = droppedHtml;
-
+    styleList.innerHTML = userstyleHtml;  
   });
