@@ -31,6 +31,7 @@ $(document).ready(function () {
 //  
 const categoryList = document.getElementById('categoryList');
 const brandList = document.getElementById('brandList');
+const productList = document.getElementById('productList')
 
 fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
   .then((response) => response.json())
@@ -38,10 +39,12 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     //
     const category = json.category;
     const brand = json.brand;
+    const product = json.prdDropped;
 
     //
     let categoryHtml = '';
     let brandHtml = '';
+    let productHtml = '';
 
 
     category.forEach(item => {
@@ -70,6 +73,37 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
       `;
     });
 
+    product.forEach(item => {
+      productHtml += 
+      `<li class="product_item">
+        <a href="#" class="product">
+            <div class="img_box">
+                <img src="${item.imgSrc}" alt="${item.prdTitle}">
+            </div>
+        </a>
+        <a href="#" class="btn_bookmark"><span class="blond">장바구니</span></a>
+        <a href="#">
+            <div class="info_box">
+                <div class="brand">
+                    <p class="brand_name">${item.brand}</p>
+                </div>
+                <p class="name">${item.prdTitle}</p>
+                <span class="express_mark">빠른배송</span>
+                <div class="price">
+                    <div class="amount">
+                        <em class="num">${item.price}원</em>
+                    </div>
+                    <div class="desc">
+                        <p>즉시구매가</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+      </li>
+      `;
+    });
+
     categoryList.innerHTML = categoryHtml;
     brandList.innerHTML = brandHtml;
+    productList.innerHTML = productHtml;
   });
