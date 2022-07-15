@@ -160,5 +160,55 @@
             "price": 125000,
             "quickDelivery": true
         }
+    ],
+    "dropped": [
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd01.webp",
+            "brand": "Nike",
+            "prdTitle": "Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp",
+            "price": 7000000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd02.webp",
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid White Black Tie-Dye",
+            "price": 155000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd03.webp",
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid Taxi",
+            "price": 154000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd04.webp",
+            "brand": "Nike",
+            "prdTitle": "(W) Nike Dunk Low Ocean",
+            "price": 144000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd05.webp",
+            "brand": "Ader Error",
+            "prdTitle": "Ader Error Twin Heart Big Logo T-Shirt Off White",
+            "price": 149000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd06.webp",
+            "brand": "IAB Studio",
+            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without Mini Mayonnaise)",
+            "price": 124000,
+            "quickDelivery": true
+        }
     ]
 }
