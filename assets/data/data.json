@@ -106,7 +106,7 @@
     "prdDropped": [
         {
             "link": "#",
-            "imgSrc": "./assets/images/product01.png",
+            "imgSrc": "./assets/images/product01.webp",
             "brand": "Nike",
             "prdTitle": "Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp",
             "price": 7000000,
@@ -131,6 +131,30 @@
         {
             "link": "#",
             "imgSrc": "./assets/images/product04.webp",
+            "brand": "",
+            "prdTitle": "",
+            "price": 260000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product05.webp",
+            "brand": "",
+            "prdTitle": "",
+            "price": 260000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product06.webp",
+            "brand": "",
+            "prdTitle": "",
+            "price": 260000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product07.webp",
             "brand": "",
             "prdTitle": "",
             "price": 260000,
