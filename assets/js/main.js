@@ -74,7 +74,7 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     });
 
     product.forEach(item => {
-      quickDelivery = item.quickDelivery ? 
+
     
       productHtml += 
       `<li class="product_item">

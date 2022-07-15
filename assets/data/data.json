@@ -115,49 +115,49 @@
         {
             "link": "#",
             "imgSrc": "./assets/images/product02.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid White Black Tie-Dye",
+            "price": 155000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/product03.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid Taxi",
+            "price": 154000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/product04.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "Nike",
+            "prdTitle": "(W) Nike Dunk Low Ocean",
+            "price": 144000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/product05.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "Ader Error",
+            "prdTitle": "Ader Error Twin Heart Big Logo T-Shirt Off White",
+            "price": 149000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/product06.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "IAB Studio",
+            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without Mini Mayonnaise)",
+            "price": 124000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/product07.webp",
-            "brand": "",
-            "prdTitle": "",
-            "price": 260000,
+            "brand": "IAB Studio",
+            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary T-Shirt Navy",
+            "price": 125000,
             "quickDelivery": true
         }
     ]
