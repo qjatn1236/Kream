@@ -110,7 +110,7 @@
             "brand": "Nike",
             "prdTitle": "Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp",
             "price": 7000000,
-            "quickDelivery": true
+            "quickDelivery": false
         },
         {
             "link": "#",
@@ -141,7 +141,8 @@
             "imgSrc": "./assets/images/product05.webp",
             "brand": "Ader Error",
             "prdTitle": "Ader Error Twin Heart Big Logo T-Shirt Off White",
-            "price": 149000
+            "price": 149000,
+            "quickDelivery": false
         },
         {
             "link": "#",
