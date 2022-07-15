@@ -110,7 +110,27 @@
   border-bottom: 1px solid #222;
 }
 .sc_product .info_box .express_mark{
-  
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 11px;
+  padding: 3px 5.5px 4px 17px;
+  color: #31b46e;
+  border: 1px solid #31b46e;
+  border-radius: 2px;
+  font-size: 11px;
+  letter-spacing: -.33px;
+  margin-top: 4px;
+}
+.sc_product .info_box .express_mark::before{
+  content: "";
+    position: absolute;
+    left: 3.5px;
+    top: 3px;
+    width: 11px;
+    height: 13px;
+    background: url(./../images/quick.svg) 0 0 no-repeat;
+    background-size: 11px 13px;
 }
 .sc_product .info_box .name {
   line-height: 17px;
