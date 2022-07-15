@@ -103,7 +103,7 @@
             "imgSrc": "./assets/images/link-item20.jpg"
         }
     ],
-    "prdDropped": [
+    "mostPopular": [
         {
             "link": "#",
             "imgSrc": "./assets/images/product01.webp",

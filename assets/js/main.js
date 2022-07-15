@@ -39,12 +39,12 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     //
     const category = json.category;
     const brand = json.brand;
-    const product = json.prdDropped;
+    const Popular = json.mostPopular;
 
     //
     let categoryHtml = '';
     let brandHtml = '';
-    let productHtml = '';
+    let PopularHtml = '';
 
 
     category.forEach(item => {
@@ -73,10 +73,10 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
       `;
     });
 
-    product.forEach(item => {
-      quickDelivery = item.quickDelivery ? item.quickDelivery : ""
+    Popular.forEach(item => {
+      quickDelivery = item.quickDelivery ? "빠른배송" : ""
     
-      productHtml += 
+      PopularHtml += 
       `<li class="product_item">
         <a href="#" class="product">
             <div class="img_box">
@@ -107,5 +107,5 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
 
     categoryList.innerHTML = categoryHtml;
     brandList.innerHTML = brandHtml;
-    productList.innerHTML = productHtml;
+    productList.innerHTML = PopularHtml;
   });
