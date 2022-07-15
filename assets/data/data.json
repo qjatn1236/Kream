@@ -215,11 +215,13 @@
         {
             "link": "#",
             "imgSrc": "./assets/images/style01.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
             "name": "@oxixzz"
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/style02.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
             "name": "@oxixzz"
         }
     ]

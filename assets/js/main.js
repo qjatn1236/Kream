@@ -150,7 +150,7 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
           <a href="#" class="link_item">
               <img src="${item.imgSrc}" alt="유저 스타일 이미지" class="item_img">
               <div class="profile_box">
-                  <img src="./assets/images/profile01.jpg" alt="유저 프로필 이미지">
+                  <img src="${item.profileSrc}" alt="유저 프로필 이미지">
               </div>
               <p class="username">${item.name}</p>
           </a>
