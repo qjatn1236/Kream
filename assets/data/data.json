@@ -166,48 +166,48 @@
             "link": "#",
             "imgSrc": "./assets/images/dropprd01.webp",
             "brand": "Nike",
-            "prdTitle": "Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp",
-            "price": 7000000,
+            "prdTitle": "Nike x Martine Rose Shox MR4 Black",
+            "price": 255000,
             "quickDelivery": false
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/dropprd02.webp",
-            "brand": "Nike",
-            "prdTitle": "Jordan 1 Mid White Black Tie-Dye",
-            "price": 155000,
+            "brand": "Crocs",
+            "prdTitle": "Crocs x Mastermind Classic Clog Black",
+            "price": 176000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/dropprd03.webp",
-            "brand": "Nike",
-            "prdTitle": "Jordan 1 Mid Taxi",
-            "price": 154000,
+            "brand": "Helinox",
+            "prdTitle": "Helinox x RVCA Chair One Muscimol",
+            "price": 165000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/dropprd04.webp",
             "brand": "Nike",
-            "prdTitle": "(W) Nike Dunk Low Ocean",
-            "price": 144000,
+            "prdTitle": "(W) Nike Dunk Low Next Nature Barely Green and White",
+            "price": 131000,
             "quickDelivery": true
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/dropprd05.webp",
-            "brand": "Ader Error",
-            "prdTitle": "Ader Error Twin Heart Big Logo T-Shirt Off White",
-            "price": 149000,
+            "brand": "Adidas",
+            "prdTitle": "Adidas Yeezy Foam RNNR Onyx",
+            "price": 159000,
             "quickDelivery": false
         },
         {
             "link": "#",
             "imgSrc": "./assets/images/dropprd06.webp",
-            "brand": "IAB Studio",
-            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without Mini Mayonnaise)",
-            "price": 124000,
+            "brand": "Nike",
+            "prdTitle": "Nike x Off-White Air Force 1 Mid SP Black",
+            "price": 150000,
             "quickDelivery": true
         }
     ]

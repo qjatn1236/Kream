@@ -111,7 +111,7 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     dropped.forEach(item => {
       quickDelivery = item.quickDelivery ? "빠른배송" : ""
     
-      PopularHtml += 
+      droppedHtml += 
       `<li class="product_item">
         <a href="#" class="product">
             <div class="img_box">
@@ -144,4 +144,5 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     brandList.innerHTML = brandHtml;
     PopularList.innerHTML = PopularHtml;
     droppedList.innerHTML = droppedHtml;
+
   });
