@@ -97,7 +97,7 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .navi_list .navi_item { border-bottom: 1px solid #ebebeb; }
 
-.navi_list .navi_item .navi_link { display: block; padding: 19px 20px 18px; height: 100%; font-size: 15px; letter-spacing: -0.15px; font-weight: 700; }
+.navi_list .navi_item .link_navi { display: block; padding: 19px 20px 18px; height: 100%; font-size: 15px; letter-spacing: -0.15px; font-weight: 700; }
 
 .btn_close { position: absolute; top: 0; right: 0; padding: 18px 11px; }
 
@@ -141,7 +141,7 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .group_corp .corp_list .corp_item { margin-right: 12px; }
 
-.group_corp .corp_list .corp_link { display: block; font-size: 14px; letter-spacing: -0.21px; color: #000; }
+.group_corp .corp_list .link_corp { display: block; font-size: 14px; letter-spacing: -0.21px; color: #000; }
 
 .group_corp .corp_item:last-child a { font-weight: 700; }
 
@@ -151,9 +151,11 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .group_sns .business_drop { margin-left: 5px; }
 
-.sns_wrap .sns_ico + .sns_ico { margin-left: 20px; }
+.group_sns .sns_area { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.sns_wrap .sns_ico img { width: 24px; height: 24px; }
+.sns_area .link_insta + .link_insta { margin-left: 20px; }
+
+.sns_area .link_insta img { width: 24px; height: 24px; }
 
 .group_business { display: none; padding-top: 20px; }
 
@@ -230,9 +232,9 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 
 .sc_hotuser .style_item { display: inline-block; }
 
-.sc_hotuser .style_item .item_link { width: 132px; display: block; overflow: hidden; position: relative; margin: 0 4px; border-radius: 10px; }
+.sc_hotuser .style_item .link_item { width: 132px; display: block; overflow: hidden; position: relative; margin: 0 4px; border-radius: 10px; }
 
-.sc_hotuser .style_item .item_link::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(30%, rgba(0, 0, 0, 0))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%); border-radius: inherit; border: 1px solid #ebebeb; }
+.sc_hotuser .style_item .link_item::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(30%, rgba(0, 0, 0, 0))); background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%); border-radius: inherit; border: 1px solid #ebebeb; }
 
 .sc_hotuser .profile_box { position: absolute; top: 8px; left: 8px; width: 36px; height: 36px; z-index: 10; }
 
@@ -253,3 +255,5 @@ header { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-inde
 .sc_guide .info_box .title { padding-top: 37px; font-size: 16px; }
 
 .sc_guide .info_box .txt { margin-top: 16px; padding: 0 7px; display: inline-block; font-size: 12px; letter-spacing: -0.06px; height: 29px; line-height: 27px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.8); color: #fff; }
+
+.sc_guide .info_box .btn_down { margin-top: 16px; padding: 0 7px; display: inline-block; font-size: 12px; letter-spacing: -0.06px; height: 29px; line-height: 27px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.8); color: #fff; }

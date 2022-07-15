@@ -84,7 +84,7 @@
   margin-right: 12px;
 }
 
-.group_corp .corp_list .corp_link {
+.group_corp .corp_list .link_corp {
   display: block;
   font-size: 14px;
   letter-spacing: -0.21px;
@@ -109,12 +109,15 @@
 .group_sns .business_drop {
   margin-left: 5px;
 }
+.group_sns .sns_area{
+  display: flex;
+}
 
-.sns_wrap .sns_ico + .sns_ico {
+.sns_area .link_insta + .link_insta {
   margin-left: 20px;
 }
 
-.sns_wrap .sns_ico img {
+.sns_area .link_insta img {
   width: 24px;
   height: 24px;
 }

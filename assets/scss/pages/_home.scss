@@ -188,7 +188,7 @@
   display: inline-block;
 }
 
-.sc_hotuser .style_item .item_link {
+.sc_hotuser .style_item .link_item {
   width: 132px;
   display: block;
   overflow: hidden;
@@ -197,7 +197,7 @@
   border-radius: 10px;
 }
 
-.sc_hotuser .style_item .item_link::after {
+.sc_hotuser .style_item .link_item::after {
   content: '';
   position: absolute;
   top: 0;
@@ -288,6 +288,18 @@
 }
 
 .sc_guide .info_box .txt {
+  margin-top: 16px;
+  padding: 0 7px;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: -0.06px;
+  height: 29px;
+  line-height: 27px;
+  border-radius: 6px;
+  border: 1px solid hsla(0, 0%, 100%, 0.8);
+  color: #fff;
+}
+.sc_guide .info_box .btn_down {
   margin-top: 16px;
   padding: 0 7px;
   display: inline-block;
