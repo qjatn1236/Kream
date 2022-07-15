@@ -74,7 +74,6 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
     });
 
     product.forEach(item => {
-      quickDelivery = item.quickDelivery ? item.quickDelivery : null
     
       productHtml += 
       `<li class="product_item">
@@ -90,7 +89,7 @@ fetch('https://qjatn1236.github.io/Kream/assets/data/data.json')
                     <p class="brand_name">${item.brand}</p>
                 </div>
                 <p class="name">${item.prdTitle}</p>
-                <span class="express_mark">${quickDelivery}</span>
+                <span class="express_mark">${item.quickDelivery}</span>
                 <div class="price">
                     <div class="amount">
                         <em class="num">${item.price}원</em>
